@@ -1,0 +1,57 @@
+{
+  "name": "satyam-yadav-blog",
+  "private": true,
+  "description": "A blog where I write something.",
+  "version": "0.1.0",
+  "author": "Satyam Yadav <satyamyadav3@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/satyamyadav/satyamyadav.github.io/issues"
+  },
+  "dependencies": {
+    "gatsby": "^4.5.2",
+    "gatsby-plugin-feed": "^4.5.0",
+    "gatsby-plugin-gatsby-cloud": "^4.5.1",
+    "gatsby-plugin-google-analytics": "^4.5.0",
+    "gatsby-plugin-image": "^2.5.1",
+    "gatsby-plugin-manifest": "^4.5.1",
+    "gatsby-plugin-offline": "^5.5.1",
+    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-sharp": "^4.5.1",
+    "gatsby-remark-copy-linked-files": "^5.5.0",
+    "gatsby-remark-images": "^6.5.1",
+    "gatsby-remark-prismjs": "^6.5.0",
+    "gatsby-remark-responsive-iframe": "^5.5.0",
+    "gatsby-remark-smartypants": "^5.5.0",
+    "gatsby-source-filesystem": "^4.5.1",
+    "gatsby-transformer-remark": "^5.5.1",
+    "gatsby-transformer-sharp": "^4.5.0",
+    "prismjs": "^1.25.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "homepage": "https://satyamyadav.info",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyamyadav/satyamyadav.github.io.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
